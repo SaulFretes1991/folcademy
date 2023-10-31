@@ -1,0 +1,23 @@
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+  }
+  
+.card-custom {
+    width: 280px;
+    height: 480px;
+    background-color: #20283ECC;
+  }
+
+.text-title-custom {
+    font-size: 16px;
+    color: #EBEEF5;
+}
+
+  img {
+    width: 265px;
+    height: 100%;
+    object-fit: cover;
+
+ }
