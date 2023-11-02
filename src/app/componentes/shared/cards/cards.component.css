@@ -1,23 +1,52 @@
+.buscador { 
+  padding: 10px 10px 10px 100px;
+  background-color: #121829; 
+}
+
+.box-buscador{
+  width: Fill (344px);
+  height: Hug (64px);
+  padding: 12px, 16px, 12px, 26px;
+  border-radius: 12px;
+  border: 1px;
+  gap: 16px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1))  linear-gradient(0deg, #323B54, #323B54);
+  border: 1px solid #323B54;  
+}
+
 .section {
     display: flex;
     flex-wrap: wrap;
     gap: 20px; 
-  }
+    background-color: #121829;
+}
   
-.card-custom {
-    width: 280px;
-    height: 480px;
-    background-color: #20283ECC;
-  }
-
-.text-title-custom {
-    font-size: 16px;
-    color: #EBEEF5;
+.card{
+  margin: auto;
+  width: Fixed (282px);
+  height: Hug (480px);
+  padding: 8px, 8px, 16px, 8px;
+  border-radius: 12px;
+  gap: 16px;
+  background-color: #20283E;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
-  img {
-    width: 265px;
-    height: 100%;
-    object-fit: cover;
+img {
+  width: 266px;
+  height: 400px;
+  border-radius: 8px;
+}
 
- }
+h2{
+  color: #EBEEF5;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+p{
+  color: #FFAD49;
+}
