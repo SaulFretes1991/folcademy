@@ -8,10 +8,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedModule } from './componentes/shared/shared.module';
 import { RoutesModule } from './componentes/routes/routes.module';
+import { LoginComponent } from './componentes/Login/login.component';
+import { RegisterComponent } from './componentes/Register/register.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -21,7 +26,10 @@ import { RoutesModule } from './componentes/routes/routes.module';
     BrowserAnimationsModule,
     RoutesModule,
     SharedModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
+    
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

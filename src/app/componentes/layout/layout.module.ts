@@ -3,20 +3,28 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component'
 import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AppRoutingModule } from '../../app-routing.module';
+
+
 
 
 
 @NgModule({
   declarations: [
     HeaderComponent,
-    NavbarComponent
+    NavbarComponent,
+    
   ],
   imports: [
-    CommonModule,
-    RouterModule
+   CommonModule, 
+   RouterModule,
+   AppRoutingModule,
+   
   ],
   exports: [
-    HeaderComponent
+    HeaderComponent,
+   
+  
   ]
 })
 export class LayoutModule { }

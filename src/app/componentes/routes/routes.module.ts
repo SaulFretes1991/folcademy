@@ -5,6 +5,8 @@ import { MoviesComponent } from './movies/movies.component';
 import { SeriesComponent } from './series/series.component';
 import { IngresarComponent } from './ingresar/ingresar.component';
 import { SharedModule } from '../shared/shared.module';
+import { LayoutModule } from '../layout/layout.module';
+
 
 
 
@@ -13,11 +15,22 @@ import { SharedModule } from '../shared/shared.module';
     HomeComponent,
     MoviesComponent,
     SeriesComponent,
-    IngresarComponent
+    IngresarComponent,
+    
   ],
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+    LayoutModule,
+    
+  ],
+  exports: [
+    HomeComponent,
+    MoviesComponent,
+    SeriesComponent,
+    IngresarComponent,
+    
+    
   ]
 })
 export class RoutesModule { }

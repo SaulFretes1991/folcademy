@@ -36,4 +36,17 @@ export interface ISeriespopular {
     total_pages: number,
     total_results: number
 
+
+}
+    export interface iLogin {
+        email: string[];
+  password: string[];
+  confirmPassword: string[];
+}
+export interface iRegister {
+    email: string[];
+password: string[];
+confirmPassword: string[];
+
+
 }
